@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\user\Desktop\HOME-WORK\.venv
+set VIRTUAL_ENV=C:\Users\user\Desktop\programming\block_3\FastAPI-OAuth2\hw-oauth\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 

@@ -1,0 +1,22 @@
+{% extends '__base.html' %}
+
+
+{% block main %}
+    <form action="" method='post'>
+
+    <div class='enter_username'>
+        <label for="username">Username</label>
+        <input type="text" name='username'>
+    </div>
+
+    <div class='enter_password'>
+        <label for="password">Password</label>
+        <input type="password" name="password">
+    </div>
+
+    <div class='login_button'>
+        <button type='submit'>Login</button>
+    </div>
+
+    </form>
+{% endblock %}

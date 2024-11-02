@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hw-oauth"
+version = "0.1.0"
+description = ""
+authors = ["Leonidig <leonid200955@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+flask = "^3.0.3"
+fastapi = {extras = ["standard"], version = "^0.115.3"}
+sqlmodel = "^0.0.22"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+pyjwt = "^2.9.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
